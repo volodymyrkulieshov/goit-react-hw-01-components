@@ -34,7 +34,6 @@ const Profile = ({
   );
 };
 
-export default Profile;
 Profile.propTypes = {
   username: PropTypes.string.isRequired,
   tag: PropTypes.string.isRequired,
@@ -46,3 +45,5 @@ Profile.propTypes = {
     likes: PropTypes.number.isRequired,
   }).isRequired,
 };
+
+export default Profile;
